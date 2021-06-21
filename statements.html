@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>statements</title>
+    <script>
+        function fnpwd(){
+            var pwdRef=document.getElementById('pwd')
+            var btnRef=document.getElementById('btn')
+            
+            if(pwdRef.getAttribute('type')=="password"){
+                pwdRef.setAttribute('type','text')
+            }
+            else{
+                pwdRef.setAttribute('type','password')
+            }
+
+            if(pwdRef.getAttribute('type')=="password"){
+                btnRef.innerText="Show Text"
+            }
+            else{
+                btnRef.innerText="Show password"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div style="margin-top: 100px; text-align: center;">
+        <h1>Form</h1>
+    <input type="password" placeholder="Enter the Password" id="pwd">
+    <button onclick="fnpwd()" id="btn">Submit</button>
+    </div>
+    
+</body>
+</html>
