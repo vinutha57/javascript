@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SessionStorage</title>
+    <script>
+        function fnset(){
+            sessionStorage.setItem('name','vinutha')
+            sessionStorage.setItem('city','bangalore')
+        }
+        function fnget(){
+            var a=sessionStorage.getItem('name')
+            var b=sessionStorage.getItem('city')
+            console.log(a)
+            console.log(b)
+        }
+        function fnupdate(){
+            sessionStorage.setItem('name','VINUTHA')
+            sessionStorage.setItem('city','BANGALORE')
+        }
+        function fnremove(){
+            sessionStorage.removeItem('name')
+        }
+    </script>
+</head>
+<body>
+    <button onclick="fnset()">Set Data</button>
+    <button onclick="fnget()">Get Data</button>
+    <button onclick="fnupdate()">Update Data</button>
+    <button onclick="fnremove()">Remove Data</button>
+</body>
+</html>

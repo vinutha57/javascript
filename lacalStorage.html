@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localStorage</title>
+    <script>
+        function fnSet(){
+            localStorage.setItem('firstname','vinutha')
+            localStorage.setItem('lastname','srinivas')
+        }
+        function fnGet(){
+            var c=localStorage.getItem('firstname')
+            var d=localStorage.getItem('lastname')
+            console.log(c)
+            console.log(d)
+        }
+        function fnUpdate(){
+            localStorage.setItem('firstname','srinivas')
+            localStorage.setItem('lastname','ramanna')
+        }
+        function fnRemove(){
+            localStorage.removeItem('firstname')
+        }
+    </script>
+</head>
+<body>
+    <button onclick="fnSet()">Set data</button>
+    <button onclick="fnGet()">Get data</button>
+    <button onclick="fnUpdate()">Update data</button>
+    <button onclick="fnRemove()">Remove data</button>
+</body>
+</html>
