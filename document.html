@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function printDocument(){
+            var inputTextRef=document.getElementById("textInput")
+            var inputPasswordRef=document.getElementById("passwordInput")
+            var inputEmailRef=document.getElementById("emailInput")
+            var inputNumberRef=document.getElementById("numberInput")
+            var h1Ref=document.getElementById("h1Reference")
+
+            var textInputValue=inputTextRef.value
+            var passwordInputValue=inputPasswordRef.value
+            var emailInputValue=inputEmailRef.value
+            var numberUInputValue=inputNumberRef.value
+            h1Ref.innerText="Form Submitted"
+            inputTextRef.value=''
+            inputEmailRef.value=''
+            inputNumberRef.value=''
+            inputPasswordRef.value=''
+ 
+            var information={
+                name:textInputValue,
+                password:passwordInputValue,
+                email:emailInputValue,
+                number:numberUInputValue
+            }
+            console.log(information)
+             }
+             
+    </script>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 150px;">
+        <h1 id="h1Reference">Login Form</h1>
+        <div>
+            <input type="text" placeholder="Name" id="textInput"/>
+        </div><br>
+        <div>
+            <input type="text" placeholder="Password" id="passwordInput"/>
+        </div><br>
+        <div>
+            <input type="text" placeholder="Email" id="emailInput"/>
+        </div><br>
+        <div>
+            <input type="number" placeholder="Phone number" id="numberInput"/>
+        </div><br>
+        <div>
+            <input type="button" value="login" onclick="printDocument()"/>
+        </div>
+    </div>
+</body>
+</html>
