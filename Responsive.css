@@ -1,0 +1,289 @@
+@media only screen and (min-device-width : 576px) and (max-device-width : 767px){
+.container{
+    width: 540px;
+}
+.logo img {
+    width: 157px;
+    padding: 5px 0 6px;
+}
+.contact-info ul li {
+    font-size: 12px;
+    margin-left: 4px;
+}
+.contact-info ul li img {
+    width: 10px;
+    margin-right: 2px;
+    position: relative;
+    top : 2px;
+}
+.banner-part{
+    padding-top: 25px;
+    padding-bottom: 27px;
+    background-position: top;
+}
+.banner-part1{
+    width: 65%;
+}
+.banner-part1 h1 {
+    margin-bottom: 0px;
+    font-size: 23px;
+}
+.banner-part1 p{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.banner-part1 h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.banner-part1 ul li {
+    margin-left: 19px;
+    margin-bottom:2px;
+    font-size: 14px;
+}
+.btn-style {
+    padding: 8px 10px;
+    font-size: 11px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.banner-part2 {
+    width: 33%;
+    margin-left: 2%
+}
+.form{
+    padding-left: 6px;
+    margin-top: 10px;
+}
+.form h3 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.form label {
+    font-size: 13px;
+}
+.form-control {
+    width: 91%;
+    padding: 4px;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+.course-info1,.course-info2,.course-info3  {
+    width: 23.5%;
+    padding: 10px 5px;
+    margin-right: 1.5%;
+    height: 75px;
+}
+.icon {
+    width: 25%;
+}
+.icon img {
+    width: 24px;
+}
+.content {
+    width: 75%;
+    font-size: 12px;
+}
+.course-info4 {
+    width: 25%;
+    padding: 10px 5px;
+    height: 75px;
+}
+.web-design {
+    padding-top: 30px;
+}
+.web-design1{
+    padding: 0px 65px 0px;
+}
+.web-design1 h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.web-design1 p {
+    font-size: 15px;
+}
+.web-design2 {
+    width: 45%;
+    padding-left: 0px;
+    margin-right: 5%;
+}
+.orangeborder {
+    border-top: 2px solid orange;
+}
+.web-box {
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 20%);
+    margin-top: 50px;
+    padding: 10px 9px;
+    height: 112px;
+}
+.web-box img {
+    padding: 0px 5px;
+    width: 20%;
+}
+.web-box h4 {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.web-box p {
+    font-size: 12px;
+}
+.orangeborder {
+    border-top: 2px solid orange;
+}
+.greenborder {
+    border-top: 2px solid green;
+}
+.redborder {
+    border-top: 2px solid red;
+}
+.lblueborder {
+    border-top: 2px solid #1cb4c2;
+}
+.yellowborder {
+    border-top: 2px solid #fea202;
+}
+.blueborder {
+    border-top: 2px solid #6fd1f9;
+}
+.dblueborder {
+    border-top: 2px solid #2378f3;
+}
+.dyellowborder {
+    border-top: 2px solid #fe711d;
+}
+.web-design3 {
+    margin-top: 35px;
+    padding: 0px 30px;
+    font-size: 12px;
+    text-align: center;
+}
+.a2nacdemy {
+    padding: 50px 0;
+    margin-top: 50px;
+}
+.benifits {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.benifits1 {
+    width: 50%;
+}
+.benifits1 h2 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.benifits1 ul li {
+    margin-bottom: 2px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.benifits2 {
+    margin-top: 35px;
+    margin-left: 2%;
+    width: 48%;
+}
+.career {
+    padding: 25px 0px 25px;
+}
+.career1 h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.career1 p {
+    padding: 0px 111px;
+    font-size: 15px;
+}
+.career2 {
+    margin-top: 30px;
+}
+.career-box { 
+    width: 15.67%;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 20%);
+    margin-right: 1%;
+}
+.career-box img {
+    padding: 3px;
+}
+.feedback {
+    padding-bottom: 40px;
+}
+.feedback1 {
+    margin-top: 35px;
+    font-size: 25px;
+}
+.feedback1 h4{
+    font-size: 23px;
+}
+.feedback2 {
+    margin-top: 35px;
+}
+.feedback-box {
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 49%;
+    box-shadow: 1px 2px 6px rgb(154 154 154 / 25%);
+    margin-right: 1%;
+    height: 183px;
+    margin-bottom: 10px;
+}
+.feedback-box p {
+    margin-top: 8px;
+    /* margin-bottom: 30px; */
+    font-size: 14px;
+}
+.feedback-box h4 {
+    text-align: right;
+    margin-top: 14px;
+}
+#para{
+    height: 85px;
+}
+.partner {
+    padding: 20px 0;
+    font-size: 18px;
+}
+.partner p {
+    font-size: 14px;
+    padding: 10px 0;
+}
+.btn-style-white {
+    padding: 7px 19px;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    font-weight: 500;
+    font-size: 13px;
+}
+.feedback1 p {
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 0px 50px;
+}
+.a2nacdemy {
+    padding: 40px 0;
+    margin-top: 50px;
+}
+.a2nacdemy h5 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.a2nacdemy h6 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.a2nacdemy p {
+    margin-bottom: 23px;
+}
+.btn-style-white {
+    padding: 7px 19px;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+
+
+
+}
